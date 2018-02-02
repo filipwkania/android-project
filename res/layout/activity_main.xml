@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:context=".MainActivity" 
+    android:background="@drawable/menu_background">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="9" >
+
+
+        <TableRow
+            android:id="@+id/tableRow8"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow9"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" >
+
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </TableRow>
+
+        <ImageView
+            android:id="@string/newgame_button"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/menu_button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/new_game" />
+
+        <ImageView
+            android:id="@string/resume_button"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/menu_button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/resume" />
+        
+        <ImageView
+            android:id="@+id/highscores_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/menu_button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/highscore" />
+
+        <TextView
+            android:id="@+id/highscore_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@string/credits_button"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/menu_button"
+            android:scaleType="fitCenter"
+            android:src="@drawable/credits" />
+
+    </LinearLayout>
+
+</RelativeLayout>

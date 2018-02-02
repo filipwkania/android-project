@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Crystal Defender</string>
+    <string name="menu_button">Menu Button</string>
+    <string name="newgame_button">New Game Button</string>
+    <string name="resume_button">Resume Buttom</string>
+    <string name="credits_button">Credits button</string>
+    <string name="menu_settings">Menu settings</string>
+
+</resources>
